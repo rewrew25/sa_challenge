@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let config = IterableConfig()
         config.allowedProtocols = ["http", "tel", "custom"]
-        IterableAPI.initialize(apiKey: "349dcc9373c74c6699c5d1204a271695", launchOptions: launchOptions, config: config)
+        IterableAPI.initialize(apiKey: "**************************271695", launchOptions: launchOptions, config: config) //redacted api key
         IterableAPI.email = "rwest7172@gmail.com"
         // IterableConfig provides configuration and customization options for the Iterable SDK. You'll use it later to set up push notifications and in-app messages
         return true
