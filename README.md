@@ -1,5 +1,4 @@
-Iterable SA Challenge:
-
+Iterable SA Challenge
 
 Mobile app project utilizing Iterable SDK to:
 - update user data
